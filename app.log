@@ -1,0 +1,308 @@
+2025-04-18 03:39:43,004 GET /users 200 185ms
+2025-04-18 03:39:43,477 Request received for /health
+2025-04-18 03:39:43,477 Request /health completed in 0.0003 seconds
+2025-04-18 03:39:43,478 GET /health 200 0ms
+2025-04-18 03:39:44,910 GET /nonexistent 404 0ms
+2025-04-18 03:39:45,594 GET /nonexistent 404 0ms
+2025-04-18 03:39:46,072 Request received for /orders
+2025-04-18 03:39:46,072 Failed request /orders in 0.0004 seconds - Bad Request: Missing data
+2025-04-18 03:39:46,073 POST /orders 400 0ms
+2025-04-18 03:39:46,296 Request received for /health
+2025-04-18 03:39:46,296 Request /health completed in 0.0002 seconds
+2025-04-18 03:39:46,296 GET /health 200 0ms
+2025-04-18 03:39:47,540 GET /users 200 240ms
+2025-04-18 03:39:48,619 GET /nonexistent 404 0ms
+2025-04-18 03:39:49,601 Request received for /products
+2025-04-18 03:39:50,067 Request /products completed in 0.4653 seconds
+2025-04-18 03:39:50,068 GET /products 200 466ms
+2025-04-18 03:39:50,565 Request received for /products
+2025-04-18 03:39:51,052 Request /products completed in 0.4862 seconds
+2025-04-18 03:39:51,053 GET /products 200 487ms
+2025-04-18 03:39:52,149 Request received for /orders
+2025-04-18 03:39:52,708 Request /orders completed in 0.5594 seconds - Order 2716 created
+2025-04-18 03:39:52,709 POST /orders 201 560ms
+2025-04-18 03:39:54,041 GET /users 200 118ms
+2025-04-18 03:39:54,510 GET /users 200 245ms
+2025-04-18 03:39:55,891 Request received for /orders
+2025-04-18 03:39:56,322 Request /orders completed in 0.4309 seconds - Order 6056 created
+2025-04-18 03:39:56,323 POST /orders 201 432ms
+2025-04-18 03:39:57,829 GET /users 200 258ms
+2025-04-18 03:39:58,057 Request received for /orders
+2025-04-18 03:39:58,370 Request /orders completed in 0.3129 seconds - Order 1503 created
+2025-04-18 03:39:58,372 POST /orders 201 314ms
+2025-04-18 03:39:59,139 Request received for /products
+2025-04-18 03:39:59,434 Request /products completed in 0.2942 seconds
+2025-04-18 03:39:59,435 GET /products 200 295ms
+2025-04-18 03:40:00,257 Request received for /products
+2025-04-18 03:40:00,562 Request /products completed in 0.3055 seconds
+2025-04-18 03:40:00,564 GET /products 200 306ms
+2025-04-18 03:40:01,894 Request received for /orders
+2025-04-18 03:40:02,323 Request /orders completed in 0.4284 seconds - Order 1406 created
+2025-04-18 03:40:02,323 POST /orders 201 429ms
+2025-04-18 03:40:03,215 Request received for /health
+2025-04-18 03:40:03,215 Request /health completed in 0.0005 seconds
+2025-04-18 03:40:03,216 GET /health 200 1ms
+2025-04-18 03:40:04,752 GET /users 200 278ms
+2025-04-18 03:40:05,450 Request received for /orders
+2025-04-18 03:40:05,451 Failed request /orders in 0.0007 seconds - Bad Request: Missing data
+2025-04-18 03:40:05,451 POST /orders 400 1ms
+2025-04-18 03:40:06,884 Request received for /products
+2025-04-18 03:40:07,155 Request /products completed in 0.2711 seconds
+2025-04-18 03:40:07,156 GET /products 200 272ms
+2025-04-18 03:40:08,115 Request received for /orders
+2025-04-18 03:40:08,610 Request /orders completed in 0.4943 seconds - Order 3686 created
+2025-04-18 03:40:08,611 POST /orders 201 495ms
+2025-04-18 03:40:09,624 GET /nonexistent 404 0ms
+2025-04-18 03:40:09,948 GET /nonexistent 404 0ms
+2025-04-18 03:40:10,713 GET /users 200 283ms
+2025-04-18 03:40:11,093 Request received for /health
+2025-04-18 03:40:11,093 Request /health completed in 0.0002 seconds
+2025-04-18 03:40:11,093 GET /health 200 0ms
+2025-04-18 03:40:11,748 Request received for /orders
+2025-04-18 03:40:11,748 Failed request /orders in 0.0004 seconds - Bad Request: Missing data
+2025-04-18 03:40:11,749 POST /orders 400 0ms
+2025-04-18 03:40:12,119 GET /nonexistent 404 0ms
+2025-04-18 03:40:13,347 Request received for /health
+2025-04-18 03:40:13,347 Request /health completed in 0.0002 seconds
+2025-04-18 03:40:13,347 GET /health 200 0ms
+2025-04-18 03:40:14,829 GET /users 200 168ms
+2025-04-18 03:40:15,459 Request received for /orders
+2025-04-18 03:40:16,010 Request /orders completed in 0.5505 seconds - Order 3033 created
+2025-04-18 03:40:16,011 POST /orders 201 551ms
+2025-04-18 06:10:09,769 Request received for /health
+2025-04-18 06:10:09,770 Request /health completed in 0.0006 seconds
+2025-04-18 06:10:09,770 GET /health 200 0ms
+2025-04-18 06:10:10,290 Request received for /orders
+2025-04-18 06:10:10,827 Request /orders completed in 0.5366 seconds - Order 3069 created
+2025-04-18 06:10:10,827 POST /orders 201 537ms
+2025-04-18 06:10:12,067 GET /users 200 154ms
+2025-04-18 06:10:13,327 GET /nonexistent 404 0ms
+2025-04-18 06:10:13,552 Request received for /products
+2025-04-18 06:10:13,914 Request /products completed in 0.3619 seconds
+2025-04-18 06:10:13,914 GET /products 200 362ms
+2025-04-18 06:10:15,094 GET /users 200 223ms
+2025-04-18 06:10:16,136 GET /nonexistent 404 0ms
+2025-04-18 06:10:17,333 Request received for /products
+2025-04-18 06:10:17,395 GET /products 500 61ms
+2025-04-18 06:10:18,109 GET /users 200 174ms
+2025-04-18 06:10:19,296 Request received for /health
+2025-04-18 06:10:19,297 Request /health completed in 0.0006 seconds
+2025-04-18 06:10:19,297 GET /health 200 1ms
+2025-04-18 06:10:20,298 Request received for /health
+2025-04-18 06:10:20,299 Request /health completed in 0.0005 seconds
+2025-04-18 06:10:20,299 GET /health 200 0ms
+2025-04-18 06:10:21,017 Request received for /products
+2025-04-18 06:10:21,352 Request /products completed in 0.3355 seconds
+2025-04-18 06:10:21,354 GET /products 200 336ms
+2025-04-18 06:10:21,893 Request received for /health
+2025-04-18 06:10:21,894 Request /health completed in 0.0004 seconds
+2025-04-18 06:10:21,894 GET /health 200 0ms
+2025-04-18 06:10:22,916 GET /users 200 299ms
+2025-04-18 06:10:24,338 Request received for /health
+2025-04-18 06:10:24,339 Request /health completed in 0.0005 seconds
+2025-04-18 06:10:24,339 GET /health 200 1ms
+2025-04-18 06:10:24,593 Request received for /health
+2025-04-18 06:10:24,593 Request /health completed in 0.0004 seconds
+2025-04-18 06:10:24,593 GET /health 200 0ms
+2025-04-18 06:10:25,538 GET /users 200 278ms
+2025-04-18 06:10:25,966 Request received for /products
+2025-04-18 06:10:26,306 Request /products completed in 0.3397 seconds
+2025-04-18 06:10:26,307 GET /products 200 341ms
+2025-04-18 06:10:26,784 GET /nonexistent 404 0ms
+2025-04-18 06:10:28,052 GET /users 200 138ms
+2025-04-18 06:10:28,780 GET /nonexistent 404 0ms
+2025-04-18 06:10:29,208 Request received for /products
+2025-04-18 06:10:29,306 GET /products 500 98ms
+2025-04-18 06:10:30,295 Request received for /orders
+2025-04-18 06:10:30,296 Failed request /orders in 0.0007 seconds - Bad Request: Missing data
+2025-04-18 06:10:30,296 POST /orders 400 1ms
+2025-04-18 06:10:30,528 GET /nonexistent 404 0ms
+2025-04-18 06:10:31,402 GET /nonexistent 404 0ms
+2025-04-18 06:10:32,043 GET /nonexistent 404 0ms
+2025-04-18 06:10:33,387 Request received for /products
+2025-04-18 06:10:33,615 Request /products completed in 0.2278 seconds
+2025-04-18 06:10:33,616 GET /products 200 229ms
+2025-04-18 06:10:34,066 Request received for /products
+2025-04-18 06:10:34,135 GET /products 500 69ms
+2025-04-18 06:10:35,002 GET /nonexistent 404 0ms
+2025-04-18 06:10:35,947 Request received for /products
+2025-04-18 06:10:36,367 Request /products completed in 0.4203 seconds
+2025-04-18 06:10:36,368 GET /products 200 421ms
+2025-04-18 06:10:36,840 Request received for /orders
+2025-04-18 06:10:37,316 Request /orders completed in 0.4761 seconds - Order 8288 created
+2025-04-18 06:10:37,317 POST /orders 201 476ms
+2025-04-18 06:10:38,784 GET /nonexistent 404 0ms
+2025-04-18 06:10:39,454 GET /users 200 165ms
+2025-04-18 06:10:39,789 GET /nonexistent 404 0ms
+2025-04-18 06:10:40,421 Request received for /orders
+2025-04-18 06:10:40,760 Request /orders completed in 0.3390 seconds - Order 9477 created
+2025-04-18 06:10:40,761 POST /orders 201 339ms
+2025-04-18 06:10:41,267 GET /users 200 151ms
+2025-04-18 06:10:42,035 Request received for /orders
+2025-04-18 06:10:42,493 Request /orders completed in 0.4578 seconds - Order 4983 created
+2025-04-18 06:10:42,494 POST /orders 201 459ms
+2025-04-18 06:10:42,810 Request received for /health
+2025-04-18 06:10:42,810 Request /health completed in 0.0006 seconds
+2025-04-18 06:10:42,811 GET /health 200 1ms
+2025-04-18 06:10:44,064 GET /users 200 244ms
+2025-04-18 06:10:45,412 Request received for /orders
+2025-04-18 06:10:45,743 Request /orders completed in 0.3314 seconds - Order 2949 created
+2025-04-18 06:10:45,744 POST /orders 201 332ms
+2025-04-18 06:10:53,340 Request received for /health
+2025-04-18 06:10:53,340 Request /health completed in 0.0002 seconds
+2025-04-18 06:10:53,340 GET /health 200 0ms
+2025-04-18 06:10:53,770 Request received for /orders
+2025-04-18 06:10:54,206 Request /orders completed in 0.4359 seconds - Order 6156 created
+2025-04-18 06:10:54,207 POST /orders 201 436ms
+2025-04-18 06:10:55,167 Request received for /orders
+2025-04-18 06:10:55,624 Request /orders completed in 0.4566 seconds - Order 3833 created
+2025-04-18 06:10:55,624 POST /orders 201 456ms
+2025-04-18 06:10:56,146 GET /users 200 170ms
+2025-04-18 06:10:56,852 Request received for /orders
+2025-04-18 06:10:57,325 Request /orders completed in 0.4737 seconds - Order 8558 created
+2025-04-18 06:10:57,327 POST /orders 201 475ms
+2025-04-18 06:10:58,343 Request received for /orders
+2025-04-18 06:10:58,905 Request /orders completed in 0.5622 seconds - Order 3479 created
+2025-04-18 06:10:58,907 POST /orders 201 563ms
+2025-04-18 06:10:59,684 Request received for /orders
+2025-04-18 06:11:00,071 Request /orders completed in 0.3861 seconds - Order 4010 created
+2025-04-18 06:11:00,072 POST /orders 201 387ms
+2025-04-18 06:11:01,246 Request received for /health
+2025-04-18 06:11:01,247 Request /health completed in 0.0005 seconds
+2025-04-18 06:11:01,247 GET /health 200 0ms
+2025-04-18 06:11:01,706 Request received for /orders
+2025-04-18 06:11:02,122 Request /orders completed in 0.4161 seconds - Order 4729 created
+2025-04-18 06:11:02,123 POST /orders 201 417ms
+2025-04-18 06:11:02,885 GET /nonexistent 404 0ms
+2025-04-18 06:11:03,554 GET /users 200 135ms
+2025-04-18 06:11:04,575 GET /users 200 153ms
+2025-04-18 06:11:05,319 Request received for /orders
+2025-04-18 06:11:05,320 Failed request /orders in 0.0007 seconds - Bad Request: Missing data
+2025-04-18 06:11:05,320 POST /orders 400 1ms
+2025-04-18 06:11:05,647 Request received for /orders
+2025-04-18 06:11:06,202 Request /orders completed in 0.5550 seconds - Order 9325 created
+2025-04-18 06:11:06,203 POST /orders 201 556ms
+2025-04-18 06:11:06,712 GET /nonexistent 404 0ms
+2025-04-18 06:11:08,224 GET /users 200 264ms
+2025-04-18 06:11:09,445 GET /nonexistent 404 0ms
+2025-04-18 06:11:10,632 Request received for /health
+2025-04-18 06:11:10,632 Request /health completed in 0.0005 seconds
+2025-04-18 06:11:10,633 GET /health 200 1ms
+2025-04-18 06:11:11,864 GET /users 200 141ms
+2025-04-18 06:11:12,865 Request received for /health
+2025-04-18 06:11:12,866 Request /health completed in 0.0005 seconds
+2025-04-18 06:11:12,866 GET /health 200 0ms
+2025-04-18 06:11:13,264 GET /nonexistent 404 0ms
+2025-04-18 06:11:14,646 Request received for /orders
+2025-04-18 06:11:15,189 Request /orders completed in 0.5431 seconds - Order 8527 created
+2025-04-18 06:11:15,189 POST /orders 201 543ms
+2025-04-18 06:11:15,899 GET /users 200 292ms
+2025-04-18 06:11:16,445 Request received for /orders
+2025-04-18 06:11:16,875 Request /orders completed in 0.4299 seconds - Order 4228 created
+2025-04-18 06:11:16,876 POST /orders 201 431ms
+2025-04-18 06:11:17,652 Request received for /health
+2025-04-18 06:11:17,653 Request /health completed in 0.0006 seconds
+2025-04-18 06:11:17,653 GET /health 200 0ms
+2025-04-18 06:11:18,927 Request received for /orders
+2025-04-18 06:11:19,358 Request /orders completed in 0.4302 seconds - Order 3634 created
+2025-04-18 06:11:19,359 POST /orders 201 431ms
+2025-04-18 06:11:20,603 Request received for /health
+2025-04-18 06:11:20,603 Request /health completed in 0.0005 seconds
+2025-04-18 06:11:20,603 GET /health 200 0ms
+2025-04-18 06:11:21,584 Request received for /orders
+2025-04-18 06:11:21,585 Failed request /orders in 0.0008 seconds - Bad Request: Missing data
+2025-04-18 06:11:21,585 POST /orders 400 1ms
+2025-04-18 06:11:22,925 Request received for /products
+2025-04-18 06:11:23,326 Request /products completed in 0.4014 seconds
+2025-04-18 06:11:23,328 GET /products 200 402ms
+2025-04-18 06:11:24,570 Request received for /health
+2025-04-18 06:11:24,570 Request /health completed in 0.0005 seconds
+2025-04-18 06:11:24,570 GET /health 200 0ms
+2025-04-18 06:11:25,984 Request received for /orders
+2025-04-18 06:11:26,376 Request /orders completed in 0.3914 seconds - Order 3458 created
+2025-04-18 06:11:26,377 POST /orders 201 392ms
+2025-04-18 06:11:26,835 Request received for /health
+2025-04-18 06:11:26,835 Request /health completed in 0.0005 seconds
+2025-04-18 06:11:26,836 GET /health 200 0ms
+2025-04-18 06:29:52,912 GET /nonexistent 404 0ms
+2025-04-18 06:29:54,087 Request received for /products
+2025-04-18 06:29:54,158 GET /products 500 71ms
+2025-04-18 06:29:54,809 GET /nonexistent 404 0ms
+2025-04-18 06:29:55,333 Request received for /health
+2025-04-18 06:29:55,333 Request /health completed in 0.0002 seconds
+2025-04-18 06:29:55,333 GET /health 200 0ms
+2025-04-18 06:29:55,988 Request received for /health
+2025-04-18 06:29:55,989 Request /health completed in 0.0006 seconds
+2025-04-18 06:29:55,989 GET /health 200 1ms
+2025-04-18 06:29:57,196 GET /users 200 165ms
+2025-04-18 06:29:57,863 Request received for /health
+2025-04-18 06:29:57,863 Request /health completed in 0.0006 seconds
+2025-04-18 06:29:57,864 GET /health 200 1ms
+2025-04-18 06:29:59,138 GET /nonexistent 404 0ms
+2025-04-18 06:29:59,870 Request received for /products
+2025-04-18 06:30:00,186 Request /products completed in 0.3163 seconds
+2025-04-18 06:30:00,187 GET /products 200 317ms
+2025-04-18 06:30:00,911 GET /nonexistent 404 0ms
+2025-04-18 06:30:01,269 Request received for /products
+2025-04-18 06:30:01,474 Request /products completed in 0.2041 seconds
+2025-04-18 06:30:01,475 GET /products 200 205ms
+2025-04-18 06:30:02,404 GET /users 200 107ms
+2025-04-18 06:30:02,853 Request received for /health
+2025-04-18 06:30:02,854 Request /health completed in 0.0003 seconds
+2025-04-18 06:30:02,854 GET /health 200 0ms
+2025-04-18 06:30:03,876 GET /users 200 154ms
+2025-04-18 06:30:04,837 GET /users 200 124ms
+2025-04-18 06:30:05,273 Request received for /health
+2025-04-18 06:30:05,274 Request /health completed in 0.0005 seconds
+2025-04-18 06:30:05,275 GET /health 200 2ms
+2025-04-18 06:30:05,825 Request received for /orders
+2025-04-18 06:30:06,379 Request /orders completed in 0.5539 seconds - Order 2135 created
+2025-04-18 06:30:06,380 POST /orders 201 555ms
+2025-04-18 06:30:06,647 Request received for /orders
+2025-04-18 06:30:07,003 Request /orders completed in 0.3553 seconds - Order 9552 created
+2025-04-18 06:30:07,004 POST /orders 201 356ms
+2025-04-18 06:30:07,667 Request received for /health
+2025-04-18 06:30:07,668 Request /health completed in 0.0006 seconds
+2025-04-18 06:30:07,668 GET /health 200 1ms
+2025-04-18 06:30:09,230 GET /users 200 216ms
+2025-04-18 06:30:10,605 GET /nonexistent 404 0ms
+2025-04-18 06:30:11,835 GET /users 200 225ms
+2025-04-18 06:30:13,210 Request received for /health
+2025-04-18 06:30:13,210 Request /health completed in 0.0005 seconds
+2025-04-18 06:30:13,210 GET /health 200 0ms
+2025-04-18 06:30:13,654 GET /users 200 129ms
+2025-04-18 06:30:13,879 GET /nonexistent 404 0ms
+2025-04-18 06:30:14,327 GET /users 200 176ms
+2025-04-18 06:30:14,817 Request received for /products
+2025-04-18 06:30:14,897 GET /products 500 79ms
+2025-04-18 06:30:16,319 GET /nonexistent 404 0ms
+2025-04-18 06:30:17,776 GET /nonexistent 404 0ms
+2025-04-18 06:30:18,601 GET /nonexistent 404 0ms
+2025-04-18 06:30:19,215 Request received for /orders
+2025-04-18 06:30:19,216 Failed request /orders in 0.0008 seconds - Bad Request: Missing data
+2025-04-18 06:30:19,216 POST /orders 400 1ms
+2025-04-18 06:30:19,700 Request received for /health
+2025-04-18 06:30:19,700 Request /health completed in 0.0005 seconds
+2025-04-18 06:30:19,700 GET /health 200 0ms
+2025-04-18 06:30:20,104 Request received for /health
+2025-04-18 06:30:20,104 Request /health completed in 0.0005 seconds
+2025-04-18 06:30:20,104 GET /health 200 0ms
+2025-04-18 06:30:20,624 GET /nonexistent 404 0ms
+2025-04-18 06:30:21,443 Request received for /orders
+2025-04-18 06:30:21,815 Request /orders completed in 0.3723 seconds - Order 2816 created
+2025-04-18 06:30:21,816 POST /orders 201 373ms
+2025-04-18 06:30:23,225 Request received for /orders
+2025-04-18 06:30:23,562 Request /orders completed in 0.3372 seconds - Order 4568 created
+2025-04-18 06:30:23,564 POST /orders 201 338ms
+2025-04-18 06:30:24,930 Request received for /health
+2025-04-18 06:30:24,931 Request /health completed in 0.0006 seconds
+2025-04-18 06:30:24,932 GET /health 200 1ms
+2025-04-18 06:30:26,074 GET /users 200 197ms
+2025-04-18 06:30:26,737 GET /users 200 145ms
+2025-04-18 06:30:27,638 Request received for /health
+2025-04-18 06:30:27,638 Request /health completed in 0.0005 seconds
+2025-04-18 06:30:27,639 GET /health 200 1ms
+2025-04-18 06:30:28,635 GET /users 200 131ms
+2025-04-18 06:30:29,998 Request received for /orders
+2025-04-18 06:30:30,535 Request /orders completed in 0.5369 seconds - Order 7830 created
+2025-04-18 06:30:30,537 POST /orders 201 538ms

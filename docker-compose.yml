@@ -1,0 +1,99 @@
+services:
+  zookeeper:
+    image: confluentinc/cp-zookeeper:7.3.2
+    container_name: zookeeper
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2182
+      ZOOKEEPER_TICK_TIME: 2000
+    ports:
+      - "2182:2182"
+
+  kafka:
+    image: confluentinc/cp-kafka:7.3.2
+    container_name: kafka
+    depends_on:
+      - zookeeper
+    ports:
+      - "9091:9091"
+      - "29092:29092"
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: 'zookeeper:2182'
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:29092,PLAINTEXT_HOST://localhost:9091
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: 0
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+
+  # --- NEW: Add PostgreSQL Service ---
+  postgres:
+    image: postgres:15 # Using PostgreSQL version 15
+    container_name: postgres
+    environment:
+      POSTGRES_DB: applogsdb         # Database name
+      POSTGRES_USER: root     # Database user
+      POSTGRES_PASSWORD: apppassword # Database password
+    ports:
+      - "5432:5432" # Expose PostgreSQL port to the host machine
+    volumes:
+      - postgres_data:/var/lib/postgresql/data # Persist data
+  api-server:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    ports:
+      - "3000:3000"
+    depends_on:
+      - kafka
+    environment:
+      - KAFKA_BROKER=kafka:29092
+    restart: always
+    volumes:
+      - ./app.log:/app/app.log
+  producer:
+    build:
+      context: .
+      dockerfile: Dockerfile.producer
+    depends_on:
+      - kafka
+      - api-server
+    environment:
+      - KAFKA_BROKER=kafka:29092 # match whatever your docker Kafka name/port
+    restart: always
+    volumes:
+      - ./app.log:/app/app.log
+
+  consumer:
+    build:
+      context: .
+      dockerfile: Dockerfile.consumer
+    depends_on:
+      - kafka
+      - postgres
+    environment:
+      - DB_HOST=postgres
+      - DB_USER=postgres
+      - DB_PASS=apppassword
+      - DB_NAME=applogsdb
+      - DB_PORT=5432
+      - KAFKA_BROKER=kafka:29092
+    restart: always
+  grafana:
+    image: grafana/grafana
+    ports:
+      - "3001:3000"
+    depends_on:
+      - postgres  # assuming your Postgres is called "db"
+    volumes:
+      - grafana-storage:/var/lib/grafana
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+
+
+
+
+volumes:
+  postgres_data:
+  grafana-storage: # Define the named volume for persistence
